@@ -29,3 +29,4 @@ print (dotprod)
 print(arr3.T) #to print transpose
 print(np.sqrt(arr3)) #for square root
 print(np.argmax(arr4)) #print the index of the largest number
+ #numpy is for operations on matrix

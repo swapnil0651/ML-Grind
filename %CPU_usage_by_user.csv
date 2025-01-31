@@ -1,0 +1,11 @@
+USER,%CPU
+swap,83.4
+avahi,0.0
+colord,0.0
+kernoops,0.0
+root,0.0
+message+,0.0
+rtkit,0.0
+syslog,0.0
+systemd+,0.0
+www-data,0.0

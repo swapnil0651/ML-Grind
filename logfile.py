@@ -24,6 +24,6 @@ print(df.iloc[:, 1])
 
 unique_error_codes_count = df['Status Code'].value_counts()
 
-print(unique_error_codes_count)
+print(unique_error_codes_count) #to print unique status code with number of logs with that status code
 
 
