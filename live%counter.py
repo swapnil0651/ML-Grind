@@ -96,15 +96,14 @@ def update_pie_chart(i):
     # Use a legend for labels to avoid overlap
     plt.legend(labels, loc="best", bbox_to_anchor=(1, 0.5))
 
-    # Add a title
+   
     plt.title("%CPU Usage by User and Unused %CPU")
 
 # Main code to set up the animation
 fig = plt.figure(figsize=(7, 7))
 
-# Use FuncAnimation to update the chart every 5 seconds (5000 ms)
 ani = FuncAnimation(fig, update_pie_chart, interval=1000)
 
-# Show the pie chart
+
 plt.tight_layout()
 plt.show()
